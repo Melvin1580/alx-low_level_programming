@@ -5,6 +5,7 @@
  * @str: input string
  * Return: no return
  */
+
 void _puts(char *str)
 {
 	int count;
@@ -13,7 +14,7 @@ void _puts(char *str)
 != '\0'; count++)
 	{
 
-_putchar(str[i]);
+_putchar(str[count]);
 	}
 	_putchar('\n');
 }
